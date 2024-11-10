@@ -1,0 +1,52 @@
+body {
+    background-image: url('pexels-shonny-yu-1526753-2947097.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+h1{
+    font-size:xx-large;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 420px;
+    min-width: 320px;
+   /* width: 100%;*/
+
+    background-color: brown;
+    color: white; /* Ensure text stands out against the brown background */
+    text-align: center;
+    padding: 20px; /* Add internal padding for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Optional: add shadow for depth */
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input,select{
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); 
+    padding-left: 10px;
+    text-transform: capitalize;
+    outline: none;
+}
+label{
+    text-align: left;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);  
+}
